@@ -1,1 +1,25 @@
+public class Main {
+  public static void main(String[] args) {
+    
+    int m = 189;
+    int r = 273;
+    
+    int add = m + r;
+    int diff = m - r;
+    int div = m / r;
+    int multiply = m * r;
 
+    if (m > r) {
+        System.out.println(m + " is greater than " + r);
+    } else if (m < r) {
+        System.out.println(m + " is less than " + r);
+    } else {
+        System.out.println(m + " is equal to " + r);
+   } 
+
+    System.out.println("Addition result: " + add);
+    System.out.println("Subtraction result: " + diff);
+    System.out.println("Multiplication result: " + multiply);
+    System.out.println("Division result: " + div);
+  }
+}
